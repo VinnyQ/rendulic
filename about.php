@@ -1,20 +1,20 @@
-<!--#include virtual="header.html" -->
-<!--#include virtual="style.css" -->
+<?php include('header.html'); ?>
+<?php include('style.css'); ?>
 <div align="center">
-<table align="center" border="0" cellspacing="10" cellpadding="10" width="80%">
+<table align="center" border="0" cellspacing="10" cellpadding="10" width="600">
 	<tr>
 		<td align="center">
 			<div align="center"><font class="header_small">About Us</font></div>
 		</td>
 	</tr>
 	<tr>
+		<td align="center">&nbsp;</td>
+	</tr>
+	<tr>
 		<td align="center">
-			<div align="center"><img src="images/main/Convention Center River.jpg" class="special" width="600" height="470" /></div>
+			<div align="center"><img src="images/main/Convention Center River.jpg" class="special" /></div>
 		</td>
 	</tr>
-</table>
-<br/><br/>
-<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 	<tr>
 		<td>
 <div class="style1">
@@ -29,6 +29,16 @@ She loves the difficulties and challenges this art form takes on but creates a f
 <br/>
 <br/>
 <br/>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<div align="center"><img src="images/main/MarkRendulic.jpg" class="special" /></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+<div class="style1">
 <b>Artist:  Mark Rendulic</b><br/>ren
 <br/>
 Mark has over 19 years experience in creating art in glass. In a special made torch, he heats glass at temperatures over 2300 degrees to melt and form the shapes.  He finds glass to be more challenging than traditional sculptural art forms.  Unlike cold worked forms, glass becomes a free flowing liquid, cools quickly, and has a tendency to boil. 
@@ -36,7 +46,15 @@ The most difficult task requires that he shape it using handmade tools and gravi
 His many years of training amd experimenting give him the ability to create just about anything he can conceive.  Every commission that Mark receives is just as exciting as the first day he spent watching a sculptor create.<br/>
 <br/>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
 		</td>
+	</tr>
+	<tr>
+		<td align="center">
+  		  <iframe width="560" height="315" src="http://www.youtube.com/embed/F1Et4rGphlY" frameborder="0" allowfullscreen></iframe>/td>
 	</tr>
 </table>
 </div>
@@ -48,9 +66,6 @@ His many years of training amd experimenting give him the ability to create just
 	<tr>
 		<td>&nbsp;<br/><br/></td>
 	</tr>
-	<tr>
-		<td align="center"><iframe width="560" height="315" src="http://www.youtube.com/embed/F1Et4rGphlY" frameborder="0" allowfullscreen></iframe></td>
-	</tr>
 </table>
-<!--#include virtual="contact.html" -->
-<!--#include virtual="footer.html" -->
+<?php include('contact.html'); ?>
+<?php include('footer.html'); ?>
