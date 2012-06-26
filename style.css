@@ -1,0 +1,80 @@
+<style type="text/css">
+<!--
+body {
+	background: #151515 url('/v2/images/bg/02.jpg') no-repeat fixed center top;
+	background-size:100%;
+}
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+img.special {border: 2px black solid;}
+.header_large {
+	font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+	font-size: 60;
+	font-weight: bold;
+	color: #317C93;
+}
+.header_small {
+	font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+	font-size: 30;
+	font-weight: bold;
+	color: #317C93;
+}
+.header_tiny {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12;
+	font-weight: bold;
+	color: #317C93;
+}
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18;
+	color: #CCCCCC;
+}
+.style1_tiny {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14;
+	color: #CCCCCC;
+}
+.style1_msg {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18;
+	color: yellow;
+}
+.detail_header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 25;
+	font-weight: bold;
+	color: #E0E0E0;
+}
+.detail_style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16;
+	color: #E0E0E0;
+}
+.carouselLeft {	
+	display:none;
+	background:url(images/main/rotate-left.png);	
+	width:40px; height:40px;
+	background-position: 0px 0px;
+}
+.carouselLeft:hover {		
+	width:40px; height:40px;
+	background-position: 0px 40px;
+	cursor:auto;
+}
+.carouselRight {
+	display:none;
+	background:url(images/main/rotate-right.png);	
+	width:40px; height:40px;
+	background-position: 0px 0px;
+}
+.carouselRight:hover {	
+	width:40px; height:40px;
+	background-position: 0px 40px;
+}
+-->
+</style>

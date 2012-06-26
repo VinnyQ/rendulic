@@ -1,0 +1,92 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+
+ 
+<!-- CloudCarousel JavaScript -->
+<script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(
+		{
+			reflHeight: 56,
+			reflGap: 2,
+			reflOpacity: 0.5,
+			titleBox: $("#title-text"),
+			altBox: $("#alt-text"),
+			buttonLeft: $("#left-but"),
+			buttonRight: $("#right-but"),
+			xPos: 500,
+			yPos: 65,
+			xRadius:500,
+			yRadius:40,
+			speed:0.15,
+			mouseWheel:true
+		}
+	);
+});
+
+</script>
+
+<!-- GridNavigation JavaScript -->
+<link rel="stylesheet" type="text/css" href="gridNavigation.css" />
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.gridnav.js"></script>
+
+<script type="text/javascript">
+			$(function() {
+				$('#tj_container').gridnav({
+					rows	: 2,
+					type	: {
+						mode		: 'sequpdown', 		// use def | fade | seqfade | updown | sequpdown | showhide | disperse | rows
+						speed		: 600,				// for fade, seqfade, updown, sequpdown, showhide, disperse, rows
+						easing		: '',				// for fade, seqfade, updown, sequpdown, showhide, disperse, rows	
+						factor		: 50,				// for seqfade, sequpdown, rows
+						reverse		: false				// for sequpdown
+					}
+				});
+			});
+</script>
+
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+
+<title>Rendulic Glass</title>
+</head>
+<div style="text-align: center;">
+<body bgcolor="#151515">
+<div id="top_banner">
+<table border=0 cellspacing=0 cellpadding=0 width="90%" align="center">
+<tr>
+  <td>
+    <div align="left">
+      <a href="/v2/index.php"><font class="header_tiny">Home</font></a>
+      <font class="style1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+      <a href="/v2/about.php"><font class="header_tiny">About Us</font></a>
+      <font class="style1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+      <a href="http://www.facebook.com/profile.php?id=1295841808" target="_blank"><img id="facebook" src="/v2/images/main/facebook.jpg" alt="Rendulic Glass on Facebook" width="20" height="20" border="0" /></a>
+    </div>
+  </td>
+  <td>
+    <div align="right">
+      <a href="/v2/page_art.php"><font class="header_tiny">Art</font></a>
+      <font class="style1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+      <a href="/v2/page_lighting.php"><font class="header_tiny">Lighting</font></a>
+      <font class="style1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+      <a href="/v2/page_kitchen_bath.php"><font class="header_tiny">Kitchen & Bath</font></a>
+    </div>
+  </td>
+</tr>
+<tr><td colspan=2><hr style="width:100%;height:1px;color:#333333" /></td></tr>
+</table>
+<br/><br/>
+</div><!-- top_banner -->
+<br/>
+<br/>
+<br/>
