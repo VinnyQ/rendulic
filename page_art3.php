@@ -1,14 +1,14 @@
 <?php include('header.html'); ?>
 <?php include('style.css'); ?>
 <div align="center">
-<table align="center" border="0" cellspacing="10" cellpadding="10" width="80%">
+<table align="center" border="0" cellspacing="10" cellpadding="10" width="1000">
 	<tr>
 		<td align="center" valign="top"><font class="header_small">Art Gallery</font></td>
 	</tr>
 	<tr>
 		<td align="center" valign="top">
 
-		<div class="container">
+		<div align="left" class="container">
 			<div class="content example10">
 				<div id="tj_container" class="tj_container">
 					<div class="tj_nav">

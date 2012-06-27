@@ -39,10 +39,11 @@
 	opacity:1.0;
 }
 .tj_wrapper{
-	width:100%;
-	height:100%;
-	position:relative;
+	width:1100;
+	height:200;
+	position:static;
 	margin:0px auto;
+	top:250;
 }
 .tj_wrapper ul li{
 	float:left;

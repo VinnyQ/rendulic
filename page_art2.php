@@ -1,15 +1,18 @@
 <?php include('header.html'); ?>
 <?php include('style.css'); ?>
 <div align="center">
-<table align="center" border="0" cellspacing="10" cellpadding="10" width="80%">
+<table align="center" border="0" cellspacing="10" cellpadding="10" width="1000">
 	<tr>
 		<td align="center" valign="top"><font class="header_small">Art Gallery</font></td>
 	</tr>
 	<tr>
 		<td align="center" valign="top">
     <div align="center">
-        <div id = "carousel1" style="width:1000px; height:400px;background: url(images/bg/xx.jpg) no-repeat fixed center top; background-size:100%; overflow:scroll;">
-
+        <div align="left" id="carousel1" 
+		style="width:1000px; height:400px; 
+		overflow:scroll; background: url(images/bg/xx.jpg) no-repeat center; 
+		background-size:100%; ">
+<!-- background: url(images/bg/xx.jpg) no-repeat fixed center top; background-size:100%; -->
             <a href="detail.php?title=African Bowl" title="African Bowl">
             <img class = "cloudcarousel" src="images/art/Art/African Bowl1205ac.jpg" alt="African Bowl" title="African Bowl" />
             </a>
